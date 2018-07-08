@@ -1856,27 +1856,29 @@ pre code {
 
 .form-control::-webkit-input-placeholder {
   color: #6c757d;
-  opacity: 1;
+  opacity: .3;
 }
 
 .form-control::-moz-placeholder {
   color: #6c757d;
-  opacity: 1;
+  opacity: .3;
 }
 
 .form-control:-ms-input-placeholder {
   color: #6c757d;
-  opacity: 1;
+  opacity: .3;
+
 }
 
 .form-control::-ms-input-placeholder {
   color: #6c757d;
-  opacity: 1;
+  opacity: .3;
+
 }
 
 .form-control::placeholder {
   color: #6c757d;
-  opacity: 1;
+  opacity: .3;
 }
 
 .form-control:disabled, .form-control[readonly] {
