@@ -7,8 +7,9 @@
 
  @font-face{
    font-family: bahij;
-   src: url("./font/PalatinoSansArabic-Bold.woff");
+   src: url("./font/Sahel.woff");
  }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -1825,8 +1826,8 @@ pre code {
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
-  font-size: .85rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.8;
   /* color: #495057; */
   background-color: #fff;
   background-clip: padding-box;
@@ -4343,8 +4344,8 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 1rem;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0rem;
 }
 
 .card > hr {
