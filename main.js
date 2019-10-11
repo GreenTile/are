@@ -3,6 +3,8 @@ window.onkeyup = function(){
 }
 window.onload = function(){
     document.getElementById('ta').value = localStorage.note;
+    document.getElementById('count').innerHTML = "Characters left: " + (2200 - 
+        document.getElementById('ta').value.length);
 }
 
 document.getElementById('ta').onkeyup = function () {
